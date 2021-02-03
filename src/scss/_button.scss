@@ -1,0 +1,23 @@
+button {
+    height: 70px;
+    width: 85px;
+    margin: 5px;
+    border-radius: 25px;
+    font-size: 20px;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    transition: .2s linear;
+    border: none;
+    color: $lime;
+
+    &:hover {
+        transform: translateY(-3px);
+        border: 5px solid $lime;
+        box-shadow: 2px 2px 7px #000;
+    }
+}
+
+.name {
+    font-size: 12px;
+}

@@ -1,0 +1,15 @@
+.totalBg {
+    background: rgba(0, 0, 0, 0.5);
+    width: 88%;
+    height: 90px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    text-align: right;
+    border-bottom: 3px solid $lime;
+    box-shadow: 3px 3px 7px #000;
+
+    h1 {
+        margin: 20px;
+        color: $lime;
+    }
+}
